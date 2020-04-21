@@ -1,0 +1,11 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.site-layout-content {
+  background: #ffffff;
+  padding: 30px;
+  min-height: 300px;
+}
