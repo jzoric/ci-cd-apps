@@ -12,7 +12,7 @@ type resp struct {
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		json.NewEncoder(w).Encode(&resp{Name:"demo-1"})
+		json.NewEncoder(w).Encode(&resp{Name:"demo-2"})
 	})
 
 	log.Fatal(http.ListenAndServe(":8080",nil))
